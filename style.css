@@ -1,6 +1,6 @@
 /* Modern style */
 header {
-    background-image: url(./media/header-wave-low.svg);
+    background-image: url(media/header-wave-low.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
@@ -37,7 +37,7 @@ body.retro {
     width: 80%; /* Adjust the width of the centered column */
     margin: 0 auto;
     padding: 20px; /* Add some padding for better readability */
-    background-image: url(./media/background.jpg);
+    background-image: url(media/background.jpg);
     background-repeat: no-repeat; /* Change to 'no-repeat' if your image is not a pattern */
     background-position: center center;
     background-attachment: fixed;
@@ -250,7 +250,7 @@ ul {
 }
 
 .footer {
-    background-image: url(./media/footer-wave.svg);
+    background-image: url(media/footer-wave.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
