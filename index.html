@@ -2,17 +2,18 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="png" href="media/favicon.png">
 </head>
 
 
 <body>
-    <div class="retro-wrapper">
-        <button id="retroButton">Retro mode</button>
-    </div>
-    <header class="intro">
-        <h1 class="intro-h1">Hello, I'm digi-man Dan!</h1>
-        <h2 class="intro-para">As an aspiring web developer with digital marketing skills, I bring together the best of both worlds – creating captivating websites and driving impactful digital strategies.</h2>
-        <h3 class="intro-contact"> <span>Like what you see and want to get in touch? </span><a href="mailto:daniel.baguley13@gmail.com" target="_blank" class="highlight-link">daniel.baguley13@gmail.com</a> </span> </h3>
+  <div class="retro-wrapper">
+    <button class="retroButton" id="retroButton">Retro mode</button>
+</div>
+<header class="intro">
+        <h1 class="intro-h1"><span id="rotatingHello">Hello</span>, I'm Dan</h1>
+        <h2 class="intro-para">As an aspiring web developer with digital marketing skills, I bring together the <strong>best of both worlds</strong> – creating captivating websites and driving impactful digital strategies.</h2>
+        <h3 class="intro-contact"> <span>Shoot me an email 🔫 </span><a href="mailto:daniel.baguley13@gmail.com" target="_blank" class="highlight-link">daniel.baguley13@gmail.com</a> </span> </h3>
     </header>
     <section class="section">
         <div class="section-head">Background</div>
@@ -26,6 +27,7 @@
         </div>
     </section>
     <section class="section">
+        <div class="section-head">Skills</div>
         <div class="section-table">
             <div class="table-column">
                 <div class="table-head">SEM</div>
@@ -75,56 +77,129 @@
                         <li class="table-item">CSS</li>
                         <li class="table-item">Javascript</li>
             </div>
-            <div class="section-head">Skills</div>
     </section>
     <section class="section">
-        <div class="section-head">Experience</div>
+      <div class="section-head">Experience</div>
+        <ul class="certifications-list">
+          <li class="certification-item">
+            <div class="certification-info">
+              <span class="certification-title">Digital Performance Specialist</span>
+              <span class="certification-date">July 2022 - Present</span>
+            </div>
+              <span class="certification-issuer">Academy Xi</span>
+          </li>
+          <li class="certification-item">
+            <div class="certification-info">
+              <span class="certification-title">Digital Web and Data Officer</span>
+              <span class="certification-date">May 2019 - July 2022</span>
+            </div>
+              <span class="certification-issuer">Telethon Kids Institute</span>
+          </li>
+          <li class="certification-item">
+            <div class="certification-info">
+              <span class="certification-title">SEO/SEM Marketing Manager</span>
+              <span class="certification-date">November 2018 - May 2019</span>
+            </div>
+              <span class="certification-issuer">Freelance</span>
+          </li>
+          <li class="certification-item">
+            <div class="certification-info">
+              <span class="certification-title">Account Manager</span>
+              <span class="certification-date">Jan 2017 - October 2018</span>
+            </div>
+              <span class="certification-issuer">SEO Shark</span>
+          </li>
+        </ul>
+    </section>
+    <section class="section">
+        <div class="section-head">Qualifications</div>
         <div class="job-container">
           <div class="job">
-            <div class="job-time">July 2022 - Present</div>
-            <div class="job-company">Academy Xi</div>
-            <div class="job-position">Digital Perfomance Specialist</div>
+            <div class="job-time">In progress</div>
+            <div class="job-company">Front-End Web Development</div>
+            <div class="job-position">Academy Xi</div>
           </div>
           <div class="job">
-            <div class="job-time">May 2019 – July 2022</div>
-            <div class="job-company">Telethon Kids Institute</div>
-            <div class="job-position">Digital Web and Data Officer</div>
+            <div class="job-time">Completed - 2022</div>
+            <div class="job-company">Google Ads Certification</div>
+            <div class="job-position">Google</div>
           </div>
           <div class="job">
-            <div class="job-time">November 2018 - May 2019</div>
-            <div class="job-company">Freelance</div>
-            <div class="job-position">SEO/SEM Marketing Manager</div>
+            <div class="job-time">Completed - 2020</div>
+            <div class="job-company">HTML5 Basic to Advanced</div>
+            <div class="job-position">Udemy</div>
           </div>
           <div class="job">
-            <div class="job-time">Jan 2017 - October 2018</div>
-            <div class="job-company">SEO Shark</div>
-            <div class="job-position">Account Manager</div>
+            <div class="job-time">Completed - 2020</div>
+            <div class="job-company">Adobe Illustrator Course</div>
+            <div class="job-position">Local provider</div>
+          </div>
+          <div class="job">
+            <div class="job-time">Completed - 2020</div>
+            <div class="job-company">Datorama Certification</div>
+            <div class="job-position">Salesforce</div>
+          </div>
+          <div class="job">
+            <div class="job-time">Completed - 2019</div>
+            <div class="job-company">Google Analytics Certification</div>
+            <div class="job-position">Google</div>
           </div>
         </div>
       </section>
 
       <section class="section">
         <div class="section-head">Projects</div>
-        <div class="section-para">
-            <div class="project-header">Perth VGC Repository</div>
-            <img src="media/coming-soon.jpg" class="img-preview" alt="Perth VGC Repository Website">
-            <div><a href="#">View Project</a></div>       
+        <div class="projects">
+          <div class="project-card" id="twclickDIV">
+            <div class="project-image-wrapper">
+              <img src="/media/TW.PNG" alt="Tammy Wood wedding celebrant website thumbnail" class="project-image">
+            </div>
+              <div class="project-description">
+                <h3 class="project-title">Wedding Celebrant website</h3>
+                <p class="project-summary">A website rehaul for the celebrant of our wedding, Tammy Wood. The goal was to rebuild her old html site with a refreshing modern look and feel.</p>
+              </div>
+            </div>
+              <div class="project-card">
+                <div class="project-image-wrapper">
+                  <img src="/media/VGC-CS.png" alt="Perth VGC Repository website thumbnail" class="project-image">
+                </div>
+                <div class="project-description">
+                  <h3 class="project-title">Perth VGC Repository</h3>
+                  <p class="project-summary">An online repository for the local Perth Pokemon VGC community. The goal is to host data from previous and upcoming events.</p>
+                </div>
+              </div>
+        </div>
       </section>
 
     <footer class="footer">
-        <div class="footer-copyright"><span>Daniel Baguley 2023</span></div>
+        <div class="footer-copyright"><span>&copy; Daniel Baguley 2023</span></div>
         <div class="footer-social-links">
-          <a href="mailto:daniel.baguley13@gmail.com" class="footer-social-link">
-            <span>Email</span>
+          <a href="mailto:daniel.baguley13@gmail.com">
+            <svg class="footer-icon" viewBox="0 0 8 6" xmlns="http://www.w3.org/2000/svg" rel="noopener noreferrer" width="30" height="30">
+              <path fill="#FFFFFF" d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z"/>
+            </svg>
           </a>
-          <a href="https://www.linkedin.com/in/daniel-baguley-ab0bab127/" target="_blank" class="footer-social-link">
-            <span>LinkedIn</span>
+          <a href="https://www.linkedin.com/in/daniel-baguley-ab0bab127/" target="_blank" rel="noopener noreferrer">
+            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path fill="#FFFFFF" d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h14V5H5zm2.5 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-1 1h2v7.5h-2V10zm5.5.43c.584-.565 1.266-.93 2-.93 2.071 0 3.5 1.679 3.5 3.75v4.25h-2v-4.25a1.75 1.75 0 0 0-3.5 0v4.25h-2V10h2v.43z"></path>
+            </svg>
           </a>
-          <a href="https://github.com/Danarkey" target="_blank" class="footer-social-link">
-            <span>GitHub</span>
+          <a href="https://github.com/Danarkey" target="_blank" rel="noopener noreferrer">
+            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path fill="#FFFFFF" d="M5.883 18.653c-.3-.2-.558-.455-.86-.816a50.32 50.32 0 0 1-.466-.579c-.463-.575-.755-.84-1.057-.949a1 1 0 0 1 .676-1.883c.752.27 1.261.735 1.947 1.588-.094-.117.34.427.433.539.19.227.33.365.44.438.204.137.587.196 1.15.14.023-.382.094-.753.202-1.095C5.38 15.31 3.7 13.396 3.7 9.64c0-1.24.37-2.356 1.058-3.292-.218-.894-.185-1.975.302-3.192a1 1 0 0 1 .63-.582c.081-.024.127-.035.208-.047.803-.123 1.937.17 3.415 1.096A11.731 11.731 0 0 1 12 3.315c.912 0 1.818.104 2.684.308 1.477-.933 2.613-1.226 3.422-1.096.085.013.157.03.218.05a1 1 0 0 1 .616.58c.487 1.216.52 2.297.302 3.19.691.936 1.058 2.045 1.058 3.293 0 3.757-1.674 5.665-4.642 6.392.125.415.19.879.19 1.38a300.492 300.492 0 0 1-.012 2.716 1 1 0 0 1-.019 1.958c-1.139.228-1.983-.532-1.983-1.525l.002-.446.005-.705c.005-.708.007-1.338.007-1.998 0-.697-.183-1.152-.425-1.36-.661-.57-.326-1.655.54-1.752 2.967-.333 4.337-1.482 4.337-4.66 0-.955-.312-1.744-.913-2.404a1 1 0 0 1-.19-1.045c.166-.414.237-.957.096-1.614l-.01.003c-.491.139-1.11.44-1.858.949a1 1 0 0 1-.833.135A9.626 9.626 0 0 0 12 5.315c-.89 0-1.772.119-2.592.35a1 1 0 0 1-.83-.134c-.752-.507-1.374-.807-1.868-.947-.144.653-.073 1.194.092 1.607a1 1 0 0 1-.189 1.045C6.016 7.89 5.7 8.694 5.7 9.64c0 3.172 1.371 4.328 4.322 4.66.865.097 1.201 1.177.544 1.748-.192.168-.429.732-.429 1.364v3.15c0 .986-.835 1.725-1.96 1.528a1 1 0 0 1-.04-1.962v-.99c-.91.061-1.662-.088-2.254-.485z"></path>
+            </svg>
           </a>
         </div>
-      </footer>      
+      </footer>
+      <button id="returnToTopBtn" title="Return to Top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 5L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 12L12 5L19 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>      
  <script src="script.js"></script>
 </body>
 </html>
+
